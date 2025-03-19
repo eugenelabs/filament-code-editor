@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiebenieuwenhuis\FilamentCodeEditor\Components;
+namespace Eugenelabs\FilamentCodeEditor\Components;
 
 use Filament\Forms\Components\Field;
 

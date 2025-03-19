@@ -15,7 +15,7 @@ composer require wiebenieuwenhuis/filament-code-editor
 ## Usage
 
 ```php
-use Wiebenieuwenhuis\FilamentCodeEditor\Components\CodeEditor;
+use Eugenelabs\FilamentCodeEditor\Components\CodeEditor;
 
 CodeEditor::make('custom_css'),
 ```

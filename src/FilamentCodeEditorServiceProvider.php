@@ -1,6 +1,6 @@
 <?php
 
-namespace Wiebenieuwenhuis\FilamentCodeEditor;
+namespace Eugenelabs\FilamentCodeEditor;
 
 use Filament\Facades\Filament;
 use Spatie\LaravelPackageTools\Package;
@@ -15,7 +15,7 @@ class FilamentCodeEditorServiceProvider extends PackageServiceProvider
         $package->name('filament-code-editor')->hasViews();
     }
 
-    public function bootingPackage() {
+    public function bootingPackage(): void {
         FilamentAsset::register([
             Js::make('filament-tools', __DIR__.'/../dist/filament-tools.js'),
         ]);

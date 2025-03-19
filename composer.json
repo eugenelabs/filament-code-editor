@@ -1,28 +1,23 @@
 {
-    "name": "wiebenieuwenhuis/filament-code-editor",
+    "name": "eugenelabs/filament-code-editor",
     "description": "Code editor for Filament",
     "keywords": [
         "laravel",
         "filament-code-editor"
     ],
-    "homepage": "https://github.com/sweebee/filament-code-editor",
+    "homepage": "https://github.com/eugenelabs/filament-code-editor",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sebastiaan Kloos",
-            "email": "sebastiaankloos@pm.me",
-            "role": "Developer"
-        },
-        {
-             "name": "Wiebe Nieuwenhuis",
-            "email": "info@wiebenieuwenhuis.nl",
+            "name": "Cristhian Hernandez",
+            "email": "cristhian@eugenelabs.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.2",
         "filament/filament": "^3.0",
-        "illuminate/contracts": "^11.0",
+        "illuminate/contracts": "^11.0|^12.0",
         "spatie/laravel-package-tools": "^1.9.2"
     },
     "require-dev": {
@@ -39,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Wiebenieuwenhuis\\FilamentCodeEditor\\": "src",
-            "Wiebenieuwenhuis\\FilamentCodeEditor\\Database\\Factories\\": "database/factories"
+            "Eugenelabs\\FilamentCodeEditor\\": "src",
+            "Eugenelabs\\FilamentCodeEditor\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Wiebenieuwenhuis\\FilamentCodeEditor\\Tests\\": "tests"
+            "Eugenelabs\\FilamentCodeEditor\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -63,7 +58,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wiebenieuwenhuis\\FilamentCodeEditor\\FilamentCodeEditorServiceProvider"
+                "Eugenelabs\\FilamentCodeEditor\\FilamentCodeEditorServiceProvider"
             ]
         }
     },
